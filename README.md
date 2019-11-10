@@ -10,6 +10,9 @@ Both agents lose energy at each tick and can regenerate when they sit on grass (
 Grass appears randomly (3% of the time) by clusters of user-defined size.
 
 Turtles can reproduce when they reach a certain level of energy (twice the birth energy). Their hatch comes in with a user defined birth energy).
+On the other hand, if a turtle reaches a 0 lever of energy, it dies.
 
 Blue turtles move randomly in all directions to try and find grass.
 Red turtles move randomly too but it one finds grass, it will call the linked turtles which will move on the same patch, assuming that more grass is around.
+
+Game is over when all remaining turtles reach a 0 level of energy.
